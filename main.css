@@ -6,7 +6,7 @@
 
 html {
     font-size: 10px;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Georgia", monospace;
     /*font-family: 'Roboto', sans-serif;*/
     color: white;
 }
@@ -14,7 +14,7 @@ html {
 body {
     width: 100%;
     height: 100%;
-    background: url('/Users/ani/Desktop/Web3/sitebg.jpg') no-repeat center fixed;
+    background: url('sitebg.jpg') no-repeat center fixed;
     background-size: cover;
 }
 
@@ -140,7 +140,7 @@ li {
 
 .nav-link:hover,
 .nav-link:focus {
-    background: linear-gradient(to top, #ffe838, #fd57bf);
+    background: linear-gradient(to top, #fbff11, #fd578e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -151,6 +151,7 @@ li {
 }
 
 .menu-toggler {
+    font-weight: lighter;
     position: absolute;
     top: 5rem;
     right: 5rem;
@@ -169,7 +170,7 @@ li {
 }
 
 .bar {
-    background: linear-gradient(to right, #ffe838, #fd57df);
+    background: linear-gradient(to right, #fbff0e, #fd578e);
     width: 100%;
     height: 4px;
     border-radius: .8rem;
@@ -209,10 +210,10 @@ li {
 }
 
 .landing-text h1 {
-    font-size: 20rem;
+    font-size: 18rem;
     font-family: 'Dancing Script', sans-serif;
-    background: linear-gradient(to top, #ffe838, #fd57bf);
-    /*-webkit-background-clip: text;*/
+    background: linear-gradient(to top, #ff3c5c, #fcf811);
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
 }
@@ -397,12 +398,12 @@ li {
 }
 
 .timeline h1 {
-    color: #eff;
+    color: rgb(105, 245, 245);
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 300;
     margin-bottom: 1rem;
-    opacity: .3;
+    opacity: 1;
 }
 
 .timeline .date {
